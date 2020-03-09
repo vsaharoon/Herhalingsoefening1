@@ -20,8 +20,12 @@ body {
 border-top-left-radius: 0;
 border-top-right-radius: 0;
 }
-.card h4 {
+.card h6 {
 color: #aaa;
 font-size: 12px;
 font-weight: 300;
+}
+.ietsikschrijf {
+    font-weight: 50;
+    font-size: large;
 }
