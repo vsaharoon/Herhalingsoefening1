@@ -1,0 +1,12 @@
+html , body {
+    min-height:150vh;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 255, 0.75);
+    box-shadow: none;
+}
+.top-nav-collapse {
+    background-color: rgba(0, 0, 255, 0.95);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
+}
