@@ -1,12 +1,27 @@
-html , body {
+body {
+    padding-top: 67px;
     min-height:150vh;
 }
 
 .navbar{
-    background-color: rgba(0, 0, 255, 0.75);
+    background: linear-gradient(to right, green,  blue);
     box-shadow: none;
 }
 .top-nav-collapse {
-    background-color: rgba(0, 0, 255, 0.95);
+    background: linear-gradient(to left, green,  blue);
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: none;
+}
+.card-img-top {
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+.card h4 {
+color: #aaa;
+font-size: 12px;
+font-weight: 300;
 }
