@@ -247,7 +247,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="modalBedrijfsgegeven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  <div class="modal fade animated rollIn" id="modalBedrijfsgegeven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -265,14 +265,14 @@
           </div>
           <div class="md-form mb-5">
             <i class="fas fa-map-marker-alt prefix grey-text"></i>
-            <input type="email" id="straat" class="form-control validate">
+            <input type="text" id="straat" class="form-control validate">
             <label data-error="wrong" data-success="right" for="straat">Straat</label>
           </div>
 
           <div class="md-form mb-4">
-            <i class="fas fa-road prefix grey-text"></i>
-            <input type="text" id="straatnummer" class="form-control validate">
-            <label data-error="wrong" data-success="right" for="straatnummer">Straatnummer</label>
+            <i class="fas fa-sort-numeric-down-alt prefix grey-text"></i>
+            <input type="text" id="huisnummer" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="huisnummer">Huisnummer</label>
           </div>
 
           <div class="md-form mb-4">
@@ -342,6 +342,7 @@
   <!-- End your project here-->
 
   <!-- jQuery -->
+  <script type="text/javascript" src="mainscript.js"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="js/popper.min.js"></script>
