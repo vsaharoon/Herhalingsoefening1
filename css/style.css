@@ -1,15 +1,16 @@
 body {
     padding-top: 67px;
-    min-height:150vh;
+    min-height: 150vh;
 }
 
-.navbar{
-    background: linear-gradient(to right, green,  blue);
+.navbar {
+    background: linear-gradient(to right, green, blue);
     box-shadow: none;
 }
+
 .top-nav-collapse {
-    background: linear-gradient(to left, green,  blue);
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
+    background: linear-gradient(to left, green, blue);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 .card {
@@ -20,21 +21,35 @@ body {
     border-radius: 0;
     box-shadow: none;
 }
+
 .card-img-top {
-border-top-left-radius: 0;
-border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
+
 .card h6 {
-color: #aaa;
-font-size: 12px;
-font-weight: 300;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 300;
 }
+
 .ietsikschrijf {
     font-weight: 50;
     font-size: large;
 }
+
 .card:hover {
     color: white;
     background-color: #eee;
     border: 2px solid;
+}
+
+.btn-group>.btn:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btn-group>.btn:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }

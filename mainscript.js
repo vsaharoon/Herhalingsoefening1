@@ -19,8 +19,10 @@ function updatemodalBedrijfsgegeven(){
     huisnummerHTML.value = bedrijf.huisnummer;
     postcodeHTML.value = bedrijf.postcode;
     gemeenteHTML.value = bedrijf.gemeente;
-}
+};
+updatemodalBedrijfsgegeven();
+
 function updateBedrijfsgegeven() {
 bedrijf.naam = naamHTML.value;
-console.log("De nieuw naam + VSAVSA")
+console.log("De nieuw naam:" + bedrijf.naam)
 }

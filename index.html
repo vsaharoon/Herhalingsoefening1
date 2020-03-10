@@ -246,9 +246,21 @@
       </div>
     </div>
   </div>
+  <div id="bedrijfsActions" class="jumbotron jumbotron-fluid text-center my-5">
+    <div class="container">
+      <h2 class="display-4">Bedrijfsgegeven</h2>
+      <p class="lead">Maak hier uw keuze.</p>
+      <div class="btn-group" role="group" aria-label="bedrijfsacties">
+        <button type="button" class="btn btn-success">Nieuw</button>
+        <button type="button" class="btn btn-warning">Wijzigen</button>
+        <button type="button" class="btn btn-danger">Werwijderen</button>
+      </div>
+    </div>
+  </div>
 
-  <div class="modal fade animated rollIn" id="modalBedrijfsgegeven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true">
+
+  <div class="modal fade animated rollIn" id="modalBedrijfsgegeven" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header text-center">
@@ -289,7 +301,7 @@
 
         </div>
         <div class="modal-footer d-flex justify-content-center">
-          <button class="btn btn-deep-orange">Opslaan</button>
+          <button class="btn btn-deep-orange" onclick=updateBedrijfsgegeven()>Opslaan</button>
         </div>
       </div>
     </div>
